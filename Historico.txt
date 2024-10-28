@@ -1,0 +1,252 @@
+El usuario guardo a un nuevo alumno con el nombre de Miyu
+Se accedio al historico del programa
+Se accedio al historico del programa
+Se accedio al historico del programa
+Se accedio al historico del programa
+El usuario guardo a un nuevo alumno con el nombre de Miyu
+Se accedio al historico del programa
+Se accedio al historico del programa
+Se han ordenado los alumnos por Nombre
+Se han ordenado los alumnos por Edad
+Se accedio al historico del programa
+El usuario guardo a un nuevo alumno con el nombre de Coco
+Se accedio al historico del programa
+Se ha ingresado al menu Eliminar Alumnos
+Se ha ingresado al menu Eliminar Alumnos
+Se ha ingresado al menu Eliminar Alumnos
+Se ha ingresado al menu Eliminar Alumnos
+Se ha ingresado al menu Mostrar Alumnos
+Se accedio al historico del programa
+Se ha ingresado al menu Agregar Alumnos
+Se ha ingresado al menu Eliminar Alumnos
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de Miyu
+Se ha ingresado al menu Mostrar Alumnos
+Se accedio al historico del programa
+Se ha ingresado al menu Eliminar Alumnos
+Se ha ingresado al menu Mostrar Alumnos
+Se accedio al historico del programa
+Se ha ingresado al menu Eliminar Alumnos
+Se ha ingresado al menu Mostrar Alumnos
+Se accedio al historico del programa
+Se han ordenado los alumnos por Edad
+Se han ordenado los alumnos por Matricula
+Se accedio al historico del programa
+Se ha ingresado al menu Agregar Alumnos
+Se ha ingresado al menu Eliminar Alumnos
+Se ha ingresado al menu Mostrar Alumnos
+Se accedio al historico del programa
+Se ha ingresado al menu Agregar Alumnos
+Se ha ingresado al menu Mostrar Alumnos
+Se ha ingresado al menu Mostrar Alumnos
+Se ha ingresado al menu Mostrar Alumnos
+Se ha ingresado al menu Agregar Alumnos
+Se ha ingresado al menu Agregar Alumnos
+Se ha ingresado al menu Eliminar Alumnos
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de 1242356
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de coco
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de Blanca
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de Coco
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de 123432
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de 4234
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de 432
+El usuario guardo a un nuevo alumno con el nombre de 432
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de 423432
+El usuario guardo a un nuevo alumno con el nombre de 4234
+El usuario guardo a un nuevo alumno con el nombre de 4234
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de Ccoco
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de 423432
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de 423423
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de 10
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de 20/20
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de miyu
+El usuario guardo a un nuevo alumno con el nombre de miyu
+El usuario guardo a un nuevo alumno con el nombre de miyu
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de Miyu
+El usuario guardo a un nuevo alumno con el nombre de miyu
+El usuario guardo a un nuevo alumno con el nombre de miyu
+El usuario guardo a un nuevo alumno con el nombre de miyu
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de 20/
+Se ha ingresado al menu Mostrar Alumnos
+Se ha ingresado al menu Mostrar Alumnos
+Se han ordenado los alumnos por Matricula
+Se ha ingresado al menu Eliminar Alumnos
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de 312344
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de 12345
+El usuario guardo a un nuevo alumno con el nombre de 12345
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de Miyu
+Se ha ingresado al menu Agregar Alumnos
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de Miyu
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de coco
+Se ha ingresado al menu Eliminar Alumnos
+Se ha eliminado el alumno: 1234
+Se ha ingresado al menu Eliminar Alumnos
+Se ha ingresado al menu Mostrar Alumnos
+Se han ordenado los alumnos por Matricula
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de Coco
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de Coco
+El usuario guardo a un nuevo alumno con el nombre de Blanca
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de Coco
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de Miyu
+El usuario guardo a un nuevo alumno con el nombre de Blanca
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de Miyu
+El usuario guardo a un nuevo alumno con el nombre de Coco
+El usuario guardo a un nuevo alumno con el nombre de Blanca
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de Miyu
+El usuario guardo a un nuevo alumno con el nombre de Coco
+Se ha ingresado al menu Mostrar Alumnos
+Se han ordenado los alumnos por Matricula
+Se han ordenado los alumnos por Matricula
+Se ha ingresado al menu Mostrar Alumnos
+Se han ordenado los alumnos por Matricula
+Se accedio al historico del programa
+Se han ordenado los alumnos por Matricula
+Se han ordenado los alumnos por Nombre
+Se han ordenado los alumnos por Edad
+Se han ordenado los alumnos por Matricula
+Se han ordenado los alumnos por el orden de agregación
+Se han ordenado los alumnos por Matricula
+Se ha ingresado al menu Mostrar Alumnos
+Se han ordenado los alumnos por Matricula
+Se ha ingresado al menu Mostrar Alumnos
+Se han ordenado los alumnos por Matricula
+Se han ordenado los alumnos por Matricula
+Se ha ingresado al menu Mostrar Alumnos
+Se han ordenado los alumnos por Matricula
+Se ha ingresado al menu Mostrar Alumnos
+Se han ordenado los alumnos por Matricula
+Se ha ingresado al menu Mostrar Alumnos
+Se ha ingresado al menu Mostrar Alumnos
+Se ha ingresado al menu Mostrar Alumnos
+Se ha ingresado al menu Agregar Alumnos
+Se ha ingresado al menu Mostrar Alumnos
+Se han ordenado los alumnos por Matricula
+Se han ordenado los alumnos por Matricula
+Se ha ingresado al menu Mostrar Alumnos
+Se ha ingresado al menu Mostrar Alumnos
+Se han ordenado los alumnos por Matricula
+Se ha ingresado al menu Mostrar Alumnos
+Se han ordenado los alumnos por Matricula
+Se han ordenado los alumnos por Nombre
+Se han ordenado los alumnos por Edad
+Se han ordenado los alumnos por el orden de agregación
+Se ha ingresado al menu Mostrar Alumnos
+Se han ordenado los alumnos por Nombre
+Se han ordenado los alumnos por Edad
+Se han ordenado los alumnos por el orden de agregación
+Se han ordenado los alumnos por Matricula
+Se han ordenado los alumnos por Nombre
+Se han ordenado los alumnos por Edad
+Se han ordenado los alumnos por el orden de agregación
+Se accedio al historico del programa
+Se ha ingresado al menu Agregar Alumnos
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de Jazmin
+El usuario guardo a un nuevo alumno con el nombre de Jazmin
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de Coco
+El usuario guardo a un nuevo alumno con el nombre de Miyu
+Se ha ingresado al menu Mostrar Alumnos
+Se han ordenado los alumnos por Nombre
+Se han ordenado los alumnos por Matricula
+Se han ordenado los alumnos por Edad
+Se han ordenado los alumnos por Nombre
+Se accedio al historico del programa
+Se han ordenado los alumnos por el orden de agregación
+Se han ordenado los alumnos por el orden de agregación
+Se han ordenado los alumnos por Edad
+Se han ordenado los alumnos por Nombre
+Se han ordenado los alumnos por Matricula
+Se ha ingresado al menu Eliminar Alumnos
+Se ha eliminado el alumno: Coco
+Se ha eliminado el alumno: Coco
+Se ha ingresado al menu Mostrar Alumnos
+Se han ordenado los alumnos por Matricula
+Se ha ingresado al menu Agregar Alumnos
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de Miyu
+El usuario guardo a un nuevo alumno con el nombre de Coco
+Se ha ingresado al menu Eliminar Alumnos
+Se ha eliminado el alumno: Miyu
+Se ha ingresado al menu Mostrar Alumnos
+Se ha ingresado al menu Agregar Alumnos
+El usuario guardo a un nuevo alumno con el nombre de Miyu
+El usuario guardo a un nuevo alumno con el nombre de Cici
+Se ha ingresado al menu Eliminar Alumnos
+Se ha eliminado el alumno: Miyu
+Se ha ingresado al menu Eliminar Alumnos
+Se ha eliminado el alumno: 12346
+Se ha ingresado al menu Mostrar Alumnos
+Se ha ingresado al menu Eliminar Alumnos
+Se ha eliminado el alumno: 12346
+Se ha ingresado al menu Mostrar Alumnos
+Se han ordenado los alumnos por Nombre
+Se han ordenado los alumnos por Edad
+Se han ordenado los alumnos por Edad
+Se han ordenado los alumnos por Nombre
+Se han ordenado los alumnos por Edad
+Se ha ingresado al menu Mostrar Alumnos
+Se ha ingresado al menu Mostrar Alumnos
+Se han ordenado los alumnos por Matricula
+Se han ordenado los alumnos por Nombre
+Se han ordenado los alumnos por Edad
+Se han ordenado los alumnos por el orden de agregación
+Se han ordenado los alumnos por Matricula
+Se accedio al historico del programa
+Se ha ingresado al menu Eliminar Alumnos
+Se ha ingresado al menu Agregar Alumnos
+Se ha ingresado al menu Agregar Alumnos
+Se ha ingresado al menu Mostrar Alumnos
+Se han ordenado los alumnos por Matricula
+Se han ordenado los alumnos por Nombre
+Se han ordenado los alumnos por Edad
+Se han ordenado los alumnos por el orden de agregación
+Se accedio al historico del programa
+Se han ordenado los alumnos por Matricula
+Se han ordenado los alumnos por Matricula
+Se han ordenado los alumnos por Nombre
+Se han ordenado los alumnos por Nombre
+Se han ordenado los alumnos por Edad
+Se han ordenado los alumnos por Edad
+Se han ordenado los alumnos por el orden de agregación
+Se han ordenado los alumnos por el orden de agregación
+Se accedio al historico del programa
+Se ha ingresado al menu Eliminar Alumnos
+Se ha ingresado al menu Agregar Alumnos
+Se ha ingresado al menu Mostrar Alumnos
+Se ha ingresado al menu Eliminar Alumnos
+Se ha ingresado al menu Eliminar Alumnos
+Se ha ingresado al menu Mostrar Alumnos
+Se ha ingresado al menu Agregar Alumnos
+Se ha ingresado al menu Mostrar Alumnos
+Se ha ingresado al menu Mostrar Alumnos
+Se ha ingresado al menu Mostrar Alumnos
+Se ha ingresado al menu Agregar Alumnos
+Se ha ingresado al menu Eliminar Alumnos
