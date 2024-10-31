@@ -47,7 +47,6 @@ public class Agregar extends javax.swing.JFrame implements ActionListener {
         setIconImage(new ImageIcon("sus.jpg").getImage());
         colaAlumnos = leerArchivo();
         llenarTabla();
-        this.setTitle("Agregar alumno");
     }
 
     /**
@@ -533,7 +532,9 @@ public class Agregar extends javax.swing.JFrame implements ActionListener {
             for (int i = 0; i < filas; i++) {
                 String matricula = (String) dtm.getValueAt(i, 0);
                 String nombre = (String) dtm.getValueAt(i, 1);
-                String edadS = (String) dtm.getValueAt(i, 2);            
+                Object edadObj = dtm.getValueAt(i, 2);
+
+                String edadS = (edadObj instanceof Integer) ? edadObj.toString() : (String) edadObj;         
                 datos.write(matricula + "," + nombre + "," + edadS + "\n");
             }
         System.out.println("Datos guardados en RegistroAlumnos.txt");
@@ -623,7 +624,7 @@ public class Agregar extends javax.swing.JFrame implements ActionListener {
             mes = mes_formato(fecha);
             año = año_formato(fecha);
             edad = obtenerEdad(dia,mes,año);
-            if(edad == -1){error.setText("Edad invalida"); return;}
+            if(edad == -1){error.setText("Edad invalida, la edad debe ser menor a 126"); return;}
             }
         else {error.setText("Introduce una fecha valida!"); return; }
         
@@ -638,9 +639,6 @@ public class Agregar extends javax.swing.JFrame implements ActionListener {
 
         nombre = nombreText.getText(); 
         dtm.addRow(new Object[]{matricula,nombre,edadS});
-        fechaText.setText("");
-        matriculaText.setText("");
-        nombreText.setText("");
         historico("El usuario guardo a un nuevo alumno con el nombre de " + nombre);
         
         Alumno a = new Alumno(matricula, nombre, edad);
