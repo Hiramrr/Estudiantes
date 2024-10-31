@@ -44,7 +44,6 @@ public class Eliminar extends javax.swing.JFrame implements ActionListener {
         setIconImage(new ImageIcon("sus.jpg").getImage());
         colaAlumnos = leerArchivo();
         llenarTabla();
-        this.setTitle("Eliminar alumno");
     }
 
     /**
@@ -324,8 +323,8 @@ public class Eliminar extends javax.swing.JFrame implements ActionListener {
     public void actionPerformed(ActionEvent evt) {
         if(evt.getSource() == eliminar){
             int fila = datos.getSelectedRow();
-            dtm.removeRow(fila);
-            historico("Se ha eliminado el alumno: " + dtm.getValueAt(0, 1));
+            historico("Se ha eliminado el alumno: " + dtm.getValueAt(fila, 1));
+            dtm.removeRow(fila);      
             guardarArchivo();
         }else if(evt.getSource() == home){
             this.dispose();
