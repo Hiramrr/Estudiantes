@@ -18,8 +18,8 @@ import javax.swing.ImageIcon;
 import javax.swing.table.DefaultTableModel;
 
 /**
- *
- * @author cinom
+ * Ventana que permite eliminar un estudiante de la lista de alumnos
+ * @author hiram, michell, jorge
  */
 public class Eliminar extends javax.swing.JFrame implements ActionListener {
     Queue<Alumno> colaAlumnos = new LinkedList<>();
@@ -258,9 +258,9 @@ public class Eliminar extends javax.swing.JFrame implements ActionListener {
     private javax.swing.JScrollPane jScrollPane1;
     // End of variables declaration//GEN-END:variables
 
-    /*
-    El historico recibe un String del mensaje que guardara
-    ejemplo de uso historico("Mensaje");
+    /**
+     * Guarda un historico de las acciones realizadas por el usuario
+     * @param accion de tipo String
     */
     public void historico(String accion){
         try{
@@ -271,7 +271,11 @@ public class Eliminar extends javax.swing.JFrame implements ActionListener {
             System.out.println("Error al guardar historico");
         }
     }
-    
+    /**
+     * Guarda los datos de alumnos en un archivo "RegistroAlumnos.txt", de no
+     * existir el archivo lo crea, y si existe lo remplaza con información nueva
+     * @throws java.io.IOException
+     */
     public void guardarArchivo() {
         int filas = dtm.getRowCount(); 
         try (BufferedWriter datos = new BufferedWriter(new FileWriter("RegistroAlumnos.txt"))) {
@@ -287,7 +291,15 @@ public class Eliminar extends javax.swing.JFrame implements ActionListener {
             System.err.println("Error al guardar el archivo: " + e.getMessage());
         }    
     }
-    
+    /**
+     * Lee los datos de un archivo RegistroAlumnos.txt y convierte los datos en
+     * objetos alumno,los cuales se regresan como una cola, el .txt debe tener
+     * cada alumno guardado en una linea diferente con el siguiente formato:
+     * "nombre,matriucula de 5 diticos, fecha de nacimiento en formato dd/mm/aaaa",
+     * de no existir la lectura no se realizara y lanzara un mensaje de error pero
+     * el programa continuara
+     * @return Queue o cola conformada por objetos Alumno
+     */
     public static Queue<Alumno> leerArchivo() {
         Queue<Alumno> colaAlumnos = new LinkedList<Alumno>();
         try (BufferedReader reader = new BufferedReader(new FileReader("RegistroAlumnos.txt"))) {
@@ -304,7 +316,9 @@ public class Eliminar extends javax.swing.JFrame implements ActionListener {
         }
         return colaAlumnos;
     }
-    
+    /**
+     * Llena la tabla con los datos de los alumnos
+     */
     public void llenarTabla() {
         while (!colaAlumnos.isEmpty()) {
             Alumno a = colaAlumnos.poll();
@@ -318,7 +332,11 @@ public class Eliminar extends javax.swing.JFrame implements ActionListener {
             colaAlumnos.add(aux.poll());
         }
     }
-    
+    /**
+     * Metodo actionPerformed
+     * @param evt el evento que se realizo
+     * Maneja los eventos de los botones
+     */
     @Override
     public void actionPerformed(ActionEvent evt) {
         if(evt.getSource() == eliminar){

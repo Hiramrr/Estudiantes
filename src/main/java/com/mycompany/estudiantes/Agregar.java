@@ -13,13 +13,15 @@ import java.util.Queue;
 import javax.swing.ImageIcon;
 import javax.swing.table.DefaultTableModel;
 
-/*
-Ventana donde se guardaran los alumnos
-*/
 
 /**
- *
- * @author hiram
+ * Ventana donde se agregan a los alumnos
+ * @author hiram, michell, jorge
+ */
+/**
+    Clase Agregar
+    Esta clase se encarga de agregar a los alumnos a la tabla
+    y de guardar los datos en un archivo de texto
  */
 public class Agregar extends javax.swing.JFrame implements ActionListener {
     private String nombre,matricula,fecha,edadS;
@@ -499,9 +501,9 @@ public class Agregar extends javax.swing.JFrame implements ActionListener {
         return edad;
     }
     
-    /*
-    El historico recibe un String del mensaje que guardara
-    ejemplo de uso historico("Mensaje");
+    /**
+    * Guarda un historico de las acciones realizadas por el usuario
+     * @param accion de tipo String
     */
     public void historico(String accion){
         try{
@@ -516,14 +518,6 @@ public class Agregar extends javax.swing.JFrame implements ActionListener {
     /**
      * Guarda los datos de alumnos en un archivo "RegistroAlumnos.txt", de no
      * existir el archivo lo crea, y si existe lo remplaza con información nueva
-     * @param alumnos Cola creada con "Queue" compuesta por objetos "Alumno"
-     * @throws java.io.IOException
-     */
-
-   /**
-     * Guarda los datos de alumnos en un archivo "RegistroAlumnos.txt", de no
-     * existir el archivo lo crea, y si existe lo remplaza con información nueva
-     * @param alumnos Cola creada con "Queue" compuesta por objetos "Alumno"
      * @throws java.io.IOException
      */
     public void guardarArchivo() {
@@ -568,7 +562,10 @@ public class Agregar extends javax.swing.JFrame implements ActionListener {
         }
         return colaAlumnos;
     }
-    
+
+    /**
+     * Llena la tabla con los datos de los alumnos
+     */
     public void llenarTabla() {
         while (!colaAlumnos.isEmpty()) {
             Alumno a = colaAlumnos.poll();
@@ -582,7 +579,13 @@ public class Agregar extends javax.swing.JFrame implements ActionListener {
             colaAlumnos.add(aux.poll());
         }
     }
-    
+
+    /**
+     * Metodo matriculaRepetida
+     * @param matricula
+     * checa si la matricula repetida se encuentra en la cola de alumnos
+     * @return true si la matricula se repite, si no, false
+     */
     public boolean matriculaRepetida(String matricula) {
         for (Alumno alumno : colaAlumnos) {
             if (alumno.getMatricula().equals(matricula)) {
@@ -591,6 +594,13 @@ public class Agregar extends javax.swing.JFrame implements ActionListener {
         }
         return false;
         }
+
+    /**
+     * Metodo tamaño_matricula
+     * @param matricula
+     * checa si la matricula tiene 5 digitos
+     * @return true si la matricula tiene 5 digitos, si no, false
+     */
     public boolean tamaño_matricula(String matricula){
         if(matricula.length() == 5 ){
             try {
@@ -605,7 +615,13 @@ public class Agregar extends javax.swing.JFrame implements ActionListener {
             return false;
         }
     }
-    
+
+    /**
+     * Metodo matriculaValida
+     * @param matricula
+     * checa si la matricula es valida
+     * @return true si la matricula es valida, si no, false
+     */
     public boolean matriculaValida(String matricula) {
         if (tamaño_matricula(matricula) && !matriculaRepetida(matricula)) {
             return true;
@@ -614,8 +630,11 @@ public class Agregar extends javax.swing.JFrame implements ActionListener {
             return false;
         }
    }
-    
-    
+
+    /**
+     * Metodo guardarAlumno
+     * guarda los datos del alumno en la tabla
+     */
     public void guardarAlumno(){
         fecha = fechaText.getText();
         //comprobar si la fecha es valida
@@ -647,8 +666,12 @@ public class Agregar extends javax.swing.JFrame implements ActionListener {
         guardarArchivo();
         System.out.println("Guarde");
     }
-    
-    
+
+    /**
+     * Metodo actionPerformed
+     * @param evt el evento que se realizo
+     * Maneja los eventos de los botones
+     */
     @Override
     public void actionPerformed(ActionEvent evt) {
         if(evt.getSource() == agregar){

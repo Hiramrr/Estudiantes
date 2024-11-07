@@ -21,8 +21,8 @@ import javax.swing.ImageIcon;
 import javax.swing.table.DefaultTableModel;
 
 /**
- *
- * @author sasuk
+ * Clase que muestra la lista de alumnos en una tabla, con la opción de ordenarlos por matricula, nombre, edad y por el orden de agregamiento
+ * @author hiram,michell,jorge
  */
 public class Lista extends javax.swing.JFrame implements ActionListener {
     Queue<Alumno> colaAlumnos = new LinkedList<>();
@@ -318,11 +318,11 @@ public class Lista extends javax.swing.JFrame implements ActionListener {
     private javax.swing.JButton ordenadoMatricula;
     private javax.swing.JButton ordenadoNombre;
     // End of variables declaration//GEN-END:variables
-    
-    /*
-    El historico recibe un String del mensaje que guardara
-    ejemplo de uso historico("Mensaje");
-    */
+
+    /**
+     * Guarda un historico de las acciones realizadas por el usuario
+     * @param accion de tipo String
+     */
     public void historico(String accion){
         try{
             BufferedWriter datos = new BufferedWriter(new FileWriter("Historico.txt",true));
@@ -332,7 +332,11 @@ public class Lista extends javax.swing.JFrame implements ActionListener {
             System.out.println("Error al guardar historico");
         }
     }
-    
+    /**
+     * Guarda los datos de alumnos en un archivo "RegistroAlumnos.txt", de no
+     * existir el archivo lo crea, y si existe lo remplaza con información nueva
+     * @throws java.io.IOException
+     */
     public static Queue<Alumno> leerArchivo() {
         Queue<Alumno> colaAlumnos = new LinkedList<Alumno>();
         try (BufferedReader reader = new BufferedReader(new FileReader("RegistroAlumnos.txt"))) {
@@ -350,7 +354,9 @@ public class Lista extends javax.swing.JFrame implements ActionListener {
         }
         return colaAlumnos;
     }
-    
+    /**
+     * Llena la tabla con los datos de los alumnos
+     */
     public void llenarTabla() {
         while (!colaAlumnos.isEmpty()) {
             Alumno a = colaAlumnos.poll();
@@ -364,7 +370,12 @@ public class Lista extends javax.swing.JFrame implements ActionListener {
             colaAlumnos.add(aux.poll());
         }
     }
-    
+
+    /**
+     * Ordena los alumnos por matricula
+     * utilizando el algoritmo de ordenamiento por inserción
+     * @param colaAlumnos
+     */
     public void porMatricula(Queue<Alumno> colaAlumnos){
         borrarTodo();
         ArrayList<Alumno> Alumnos = new ArrayList<Alumno>();
@@ -390,7 +401,12 @@ public class Lista extends javax.swing.JFrame implements ActionListener {
         datos.repaint();
         datos.revalidate();
     }
-    
+
+    /**
+     *Ordena los alumnos por nombre
+     * utilizando el algoritmo de ordenamiento de burbuja
+     * @param colaAlumnos
+     */
     public void porNombre(Queue<Alumno> colaAlumnos){
         borrarTodo();
         ArrayList<Alumno> Alumnos = new ArrayList<Alumno>();
@@ -415,7 +431,12 @@ public class Lista extends javax.swing.JFrame implements ActionListener {
         datos.repaint();
         datos.revalidate();
     }
-    
+
+    /**
+     * Ordena los alumnos por edad
+     * utilizando el algoritmo de ordenamiento de selección
+     * @param colaAlumnos
+     */
     public void porEdad(Queue<Alumno> colaAlumnos){
         borrarTodo();
         ArrayList<Alumno> Alumnos = new ArrayList<Alumno>();
@@ -442,8 +463,11 @@ public class Lista extends javax.swing.JFrame implements ActionListener {
         datos.repaint();
         datos.revalidate();
     }
-    
-    
+
+    /**
+     * Actualiza la tabla con los datos de los alumnos
+     * @param Alumnos
+     */
     public void actualizarTabla(ArrayList<Alumno> Alumnos){
         for(int i=0; i<Alumnos.size(); i++){
             Alumno alumno = Alumnos.get(i);
@@ -453,11 +477,18 @@ public class Lista extends javax.swing.JFrame implements ActionListener {
             dtm.addRow(new Object[]{matricula, nombre, edad});
         }
     }
-    
+
+    /**
+     * Borra todos los datos de la tabla
+     */
     public void borrarTodo() {
         dtm.setRowCount(0);
     }
-    
+
+    /**
+     * Método que permite obtener el icono de la ventana
+     * @param evt el evento de la ventana
+     */
     @Override
     public void actionPerformed(ActionEvent evt) {
         if(evt.getSource() == ordenadoMatricula){

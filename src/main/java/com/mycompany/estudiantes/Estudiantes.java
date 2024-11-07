@@ -7,8 +7,8 @@ package com.mycompany.estudiantes;
 
 
 /**
- *
- * @author sasuk
+ * Main de la aplicación
+ * @author Hiram
  */
 public class Estudiantes {
 

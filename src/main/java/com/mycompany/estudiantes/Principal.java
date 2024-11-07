@@ -12,8 +12,8 @@ import java.io.IOException;
 import javax.swing.ImageIcon;
 
 /**
- *
- * @author sasuk
+ * Clase que representa el menu principal de la aplicacion
+ * @author hiram,michell,jorge
  */
 public class Principal extends javax.swing.JFrame implements ActionListener {
 
@@ -253,10 +253,10 @@ public class Principal extends javax.swing.JFrame implements ActionListener {
     private javax.swing.JScrollBar jScrollBar1;
     private javax.swing.JButton mostrar;
     // End of variables declaration//GEN-END:variables
-    /*
-    El historico recibe un String del mensaje que guardara
-    ejemplo de uso historico("Mensaje");
-    */
+    /**
+     * Guarda un historico de las acciones realizadas por el usuario
+     * @param accion de tipo String
+     */
     public void historico(String accion){
         try{
             BufferedWriter datos = new BufferedWriter(new FileWriter("Historico.txt",true));
@@ -266,7 +266,11 @@ public class Principal extends javax.swing.JFrame implements ActionListener {
             System.out.println("Error al guardar historico");
         }
     }
-    
+
+    /**
+     * Metodo que se encarga de realizar las acciones de los botones
+     * @param evt el evento que se realiza
+     */
     @Override
     public void actionPerformed(ActionEvent evt) {
         if(evt.getSource() == agregar){

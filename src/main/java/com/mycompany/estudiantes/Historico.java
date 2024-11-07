@@ -15,8 +15,8 @@ Este solo es el diseño del panel del historico
 */
 
 /**
- *
- * @author hiram
+ * Panel que muestra el historico de acciones realizadas en la aplicación
+ * @author hiram, michell, jorge
  */
 public class Historico extends javax.swing.JPanel {
     Stack<String> accionesPila = new Stack<String>();
@@ -66,6 +66,10 @@ public class Historico extends javax.swing.JPanel {
     private javax.swing.JTextArea area;
     private javax.swing.JScrollPane jScrollPane1;
     // End of variables declaration//GEN-END:variables
+
+    /**
+     * Llena el área de texto con el contenido del archivo Historico.txt
+     */
     public void llenarTexto() {
         try {
             BufferedReader lector = new BufferedReader(new FileReader("Historico.txt"));
